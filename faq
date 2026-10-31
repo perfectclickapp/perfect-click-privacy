@@ -1,1 +1,322 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Frequently asked questions about Perfect Click, the advanced metronome built for drummers.">
+<title>Perfect Click | Frequently Asked Questions</title>
+
+<style>
+:root {
+    --background: #262626;
+    --surface: #333333;
+    --accent: #c8a9ff;
+    --text: #ffffff;
+    --muted: #cccccc;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--background);
+    color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.65;
+}
+
+header {
+    text-align: center;
+    padding: 45px 20px 35px;
+    background: #1f1f1f;
+    border-bottom: 3px solid var(--accent);
+}
+
+.logo {
+    font-size: clamp(36px, 7vw, 58px);
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 1.1;
+}
+
+.tagline {
+    color: var(--accent);
+    font-size: 17px;
+    margin-top: 8px;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 35px 22px 60px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.intro {
+    text-align: center;
+    color: var(--muted);
+    margin-bottom: 35px;
+}
+
+.category {
+    color: var(--accent);
+    font-size: 19px;
+    font-weight: bold;
+    margin: 35px 0 12px;
+}
+
+details {
+    background: var(--surface);
+    border: 1px solid #484848;
+    border-radius: 9px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+summary {
+    cursor: pointer;
+    padding: 17px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::after {
+    content: "+";
+    color: var(--accent);
+    font-size: 24px;
+    font-weight: normal;
+    flex-shrink: 0;
+}
+
+details[open] summary::after {
+    content: "−";
+}
+
+.answer {
+    padding: 0 20px 18px;
+    color: var(--muted);
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 28px 20px;
+    border-top: 1px solid #484848;
+    color: var(--muted);
+    font-size: 14px;
+}
+
+footer a {
+    color: var(--accent);
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 35px 15px 28px;
+    }
+
+    .container {
+        padding: 25px 15px 45px;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+
+    summary {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .answer {
+        padding: 0 15px 15px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">perfect click</div>
+    <div class="tagline">A metronome built for drummers.</div>
+</header>
+
+<main class="container">
+
+<h1>Frequently Asked Questions</h1>
+
+<p class="intro">
+Find answers to common questions about Perfect Click and its features.
+</p>
+
+<div class="category">Getting Started</div>
+
+<details>
+<summary>What is Perfect Click?</summary>
+<div class="answer">
+Perfect Click is an advanced metronome built specifically for drummers. It goes beyond a traditional click track by allowing you to save individual song tempos, program complete arrangements, create custom time signatures, organize gig setlists, and customize your click sounds and subdivisions.
+</div>
+</details>
+
+<details>
+<summary>Who is Perfect Click designed for?</summary>
+<div class="answer">
+Perfect Click is designed for drummers who want more control and flexibility from their metronome. It is particularly useful for musicians who perform songs with changing tempos, multiple time signatures, different arrangements, or need an organized setlist for live performances. It is also a practical tool for everyday practice and rehearsal.
+</div>
+</details>
+
+<details>
+<summary>Do I need an account to use Perfect Click?</summary>
+<div class="answer">
+No. Perfect Click does not require you to create an account or sign in to use the app.
+</div>
+</details>
+
+<div class="category">Songs & Arrangements</div>
+
+<details>
+<summary>Can I save individual song settings?</summary>
+<div class="answer">
+Yes. You can save songs with their own BPM, time signature, subdivision settings, count-in preferences, and preset arrangements. Your saved songs can be accessed, edited, and duplicated in your song library.
+</div>
+</details>
+
+<details>
+<summary>What are preset song arrangements?</summary>
+<div class="answer">
+Preset arrangements allow you to program the structure of an entire song in advance. Create multiple sections with different tempos, time signatures, subdivisions, and bar counts. Perfect Click automatically transitions between sections and stops playback when the programmed arrangement is complete. This means you can follow a song's structure without manually changing the tempo or stopping the click at the end.
+</div>
+</details>
+
+<details>
+<summary>What are gig setlists?</summary>
+<div class="answer">
+Gig setlists let you organize your saved songs into performance-ready lists. Add songs, arrange their running order, and keep each song's tempo, time signature, and programmed arrangement ready to go. You can create separate setlists for different bands, performances, or events, making it easier to manage your music without searching through your entire song library.
+</div>
+</details>
+
+<div class="category">Time Signatures & Subdivisions</div>
+
+<details>
+<summary>Can I create custom time signatures?</summary>
+<div class="answer">
+Yes. Perfect Click allows you to build and save custom time signatures with up to 16 beats. You can customize the upbeat and downbeat click patterns to create a rhythmic pattern that suits your music. Once saved, your custom time signatures can be accessed whenever you need them.
+</div>
+</details>
+
+<details>
+<summary>What are subdivisions?</summary>
+<div class="answer">
+Subdivisions allow you to hear additional rhythmic divisions within each beat. Perfect Click supports standard quarter-note clicks, 8th notes, and triplets. You can also adjust subdivision volume to balance the additional notes against the main beat.
+</div>
+</details>
+
+<div class="category">Sound & Playback</div>
+
+<details>
+<summary>Can I customize the click sounds?</summary>
+<div class="answer">
+Yes. Perfect Click includes selectable click tones and supports custom WAV audio samples. You can upload your own sounds and configure different tones for accented and regular beats. This allows you to create a click track that is easier to hear and better suited to your playing environment.
+</div>
+</details>
+
+<details>
+<summary>Can I adjust the volume of the click?</summary>
+<div class="answer">
+Yes. The app includes an on-screen volume control, allowing you to adjust playback conveniently without relying on your device's physical volume buttons.
+</div>
+</details>
+
+<details>
+<summary>What is the count-in feature?</summary>
+<div class="answer">
+The count-in feature adds a chosen number of bars before your main click begins. This gives you time to prepare before playing or recording. Count-in settings can also be saved with individual songs.
+</div>
+</details>
+
+<details>
+<summary>Can I change the tempo while the metronome is playing?</summary>
+<div class="answer">
+Yes. You can adjust the BPM directly from the main click screen using the tempo controls or by tapping the BPM display to enter a specific tempo.
+</div>
+</details>
+
+<details>
+<summary>Does Perfect Click support different time signatures?</summary>
+<div class="answer">
+Yes. Perfect Click includes standard time signatures such as 3/4 and 4/4, as well as support for custom time signatures that you create and save yourself.
+</div>
+</details>
+
+<div class="category">Settings & Backup</div>
+
+<details>
+<summary>Can I back up my songs and settings?</summary>
+<div class="answer">
+Yes. Perfect Click includes a Backup and Restore feature that allows you to save your app data and restore it later. This is useful when transferring your information to another device or keeping a backup of your saved songs and configurations.
+</div>
+</details>
+
+<details>
+<summary>Can I customize the appearance of the app?</summary>
+<div class="answer">
+Yes. Perfect Click includes appearance settings that allow you to customize aspects of the interface, including its colour scheme and display settings.
+</div>
+</details>
+
+<div class="category">Live Performance</div>
+
+<details>
+<summary>Is Perfect Click suitable for live performances?</summary>
+<div class="answer">
+Yes. Perfect Click was designed with live performance in mind. You can prepare your songs and arrangements in advance, organize them into setlists, and let programmed arrangements manage tempo and time-signature changes during playback.
+</div>
+</details>
+
+<div class="category">Download & Availability</div>
+
+<details>
+<summary>Where can I download Perfect Click?</summary>
+<div class="answer">
+Perfect Click is available for Android through Google Play. Check back here for the official download link.
+</div>
+</details>
+
+</main>
+
+<footer>
+    <p>Perfect Click by JPod Studios</p>
+    <a href="https://perfectclickapp.github.io/perfect-click-privacy/">Privacy Policy</a>
+    <a href="https://perfectclick.carrd.co/">Website</a>
+    <p>© 2026 JPod Studios. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
